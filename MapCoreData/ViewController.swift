@@ -27,7 +27,7 @@ class ViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDel
         self.locationManager.startUpdatingLocation()
         //self.mapView.show = true
 
-         print(self.forcast?.dailyForecasts?[0].date ?? "")
+         //print(self.forcast?.dailyForecasts?[0].date ?? "")
         
     }
 
